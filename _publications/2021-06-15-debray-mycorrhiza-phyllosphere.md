@@ -8,8 +8,6 @@ venue: "New Phytologist"
 paperurl: https://doi.org/10.1111/nph.17494
 ---
 
-Published in *New Phytologist*, 2021
-
 **Recommended citation:**  
 Debray, R., Socolar, Y., Kaulbach, G., Guzman, A., Hernandez, C., Curley, R., Dhond, A., Bowles, T., Koskella, B. (2021). *Water stress and disruption of mycorrhizas induce parallel shifts in phyllosphere microbial communities in two unrelated host plants*. *New Phytologist*, 231(5), 1962–1974. [PDF](/files/debray-2021-phyllosphere.pdf)
 [Download Paper](/files/debray-2021-phyllosphere.pdf)
