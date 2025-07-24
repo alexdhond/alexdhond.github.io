@@ -1,7 +1,7 @@
 ---
 title: "Water stress and disruption of mycorrhizas induce parallel shifts in phyllosphere microbial communities in two unrelated host plants"
 collection: publications
-permalink: /publication/debray-phyllosphere-2021/
+permalink: /publication/debray-2021-phyllosphere/
 excerpt: "This study explores how drought and mycorrhizal disruption affect leaf-associated microbial communities across plant species."
 date: 2021-06-14
 venue: "New Phytologist"
