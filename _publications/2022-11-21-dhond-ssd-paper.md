@@ -9,3 +9,6 @@ paperurl: https://doi.org/10.1021/acs.est.2c06857
 citation: 'Dhond, A. K.; Barron, M. G. (2022). "Advancing Fifth Percentile Hazard Concentration Estimation Using Toxicity-Normalized Species Sensitivity Distributions." *Environ. Sci. Technol.* 56(23), 17188–17196.'
 category: manuscripts
 ---
+
+[Download Paper](/files/dhond-2022-advancing-fifth-percentile.pdf)
+
