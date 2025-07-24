@@ -48,25 +48,26 @@ layout: default
   {{ content }}
 
   {% if page.citation %}
-    <p style="font-size: smaller"><strong>Recommended citation:</strong><br />{{ page.citation | markdownify }}</p>
+    <p style="font-size: smaller"><strong>Recommended citation:</strong><br />
+      {{ page.citation | markdownify }}</p>
   {% endif %}
 
-  {% if page.pdfurl %}
-    <p style="font-size: smaller"><a href="{{ page.pdfurl }}" target="_blank">Download PDF</a></p>
-  {% endif %}
-
-  {% if page.paperurl %}
-    <p style="font-size: smaller"><a href="{{ page.paperurl }}" target="_blank">Link to Online Source</a></p>
-  {% endif %}
-
-  {% if page.slidesurl %}
-    <p style="font-size: smaller"><a href="{{ page.slidesurl }}" target="_blank">Download Slides</a></p>
-  {% endif %}
-
-  {% if page.bibtexurl %}
-    <p style="font-size: smaller"><a href="{{ page.bibtexurl }}" target="_blank">Download BibTeX</a></p>
-  {% endif %}
+  <ul style="font-size: smaller; list-style-type: none; padding-left: 0;">
+    {% if page.pdfurl %}
+      <li><a href="{{ page.pdfurl }}" target="_blank">Download PDF</a></li>
+    {% endif %}
+    {% if page.paperurl %}
+      <li><a href="{{ page.paperurl }}" target="_blank">View Online</a></li>
+    {% endif %}
+    {% if page.slidesurl %}
+      <li><a href="{{ page.slidesurl }}" target="_blank">Download Slides</a></li>
+    {% endif %}
+    {% if page.bibtexurl %}
+      <li><a href="{{ page.bibtexurl }}" target="_blank">Download BibTeX</a></li>
+    {% endif %}
+  </ul>
 </section>
+
 
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
