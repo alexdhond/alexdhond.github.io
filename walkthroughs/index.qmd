@@ -1,0 +1,14 @@
+---
+title: "Walkthroughs"
+listing:
+  contents:
+    - "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  date-format: "MMM YYYY"
+  fields: [title, description, date, categories]
+---
+
+Longer, more structured analysis writeups sourced from my project
+repositories.

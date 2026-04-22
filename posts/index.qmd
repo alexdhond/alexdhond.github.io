@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents:
+    - path: .
+      exclude: index.qmd
+  sort: "date desc"
+  type: default
+  categories: true
+  date-format: "D MMM YYYY"
+---
+
+Shorter notes, updates, and small explorations.

@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/**
+    - images/**
+  render:
+    - index.qmd
+    - about.qmd
+    - publications.qmd
+    - posts/**/*.qmd
+    - walkthroughs/**/*.qmd
+    - apps/**/*.qmd
+
+website:
+  title: "Alex Dhond"
+  site-url: "https://alexdhond.github.io"
+  repo-url: "https://github.com/alexdhond/alexdhond.github.io"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: walkthroughs/index.qmd
+        text: Walkthroughs
+      - href: posts/index.qmd
+        text: Blog
+      - href: apps/index.qmd
+        text: Apps
+      - href: publications.qmd
+        text: Publications
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: "https://github.com/alexdhond"
+
+  page-footer:
+    left: "© Alex Dhond"
+    right:
+      - text: ORCID
+        href: "https://orcid.org/0000-0002-6436-4466"
+      - text: Google Scholar
+        href: "https://scholar.google.com/citations?user=oP_ioUwAAAAJ&hl=en"
+
+format:
+  html:
+    theme:
+      - flatly
+      - styles-light.scss
+    grid:
+      body-width: 860px
+      margin-width: 280px
+      gutter-width: 1.75rem
+    toc: true
+    toc-location: left
+    code-fold: false
+    code-tools: false
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+  warning: false
+  message: false

@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+
+// Coastal Cowboy palette
+$cream:     #fdfbee;
+$espresso:  #481f1f;
+$caramel:   #936a2f;
+$coral:     #d97066;
+$tan:       #b49c84;
+$sage:      #cbd0af;
+$olive:     #61642b;
+$teal:      #95ada3;
+
+$body-bg:    $cream;
+$body-color: $espresso;
+$primary:    $caramel;
+
+$link-color:          $caramel;
+$link-hover-color:    $coral;
+$link-decoration:     underline;
+$link-hover-decoration: underline;
+
+$border-color: rgba(72, 31, 31, 0.14);
+
+// Typography — IBM Plex Sans via Google Fonts
+$font-family-base:      "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:  $font-family-base;
+$font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+$headings-font-weight: 600;
+$line-height-base:     1.65;
+
+// Code blocks — very pale sage tint
+$pre-bg:            rgba(203, 208, 175, 0.25);
+$inline-code-bg:    rgba(203, 208, 175, 0.35);
+$inline-code-border: rgba(72, 31, 31, 0.10);
+
+$navbar-light-color:            $espresso;
+$navbar-light-hover-color:      $caramel;
+$navbar-light-active-color:     $caramel;
+$navbar-light-brand-color:      $espresso;
+$navbar-light-brand-hover-color: $caramel;
+
+$btn-border-radius:  0.5rem;
+$card-border-radius: 0.75rem;
+
+/*-- scss:rules --*/
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
+
+@import "styles-shared";
+
+// Subtle accent on blockquotes and callouts
+blockquote {
+  border-left: 3px solid #936a2f;  // caramel
+  color: rgba(72, 31, 31, 0.85);
+}

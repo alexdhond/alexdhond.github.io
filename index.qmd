@@ -1,0 +1,17 @@
+---
+title: "Hi, I'm Alex"
+page-layout: full
+---
+
+I'm a PhD student in ecology at the University of Oxford. My research looks at
+the ecological credibility and long-term durability of biodiversity and
+nature-based carbon offsets.
+
+This site is where I write up analyses from my project repositories, post
+shorter notes, and host a few interactive tools.
+
+::: {.callout-tip appearance="simple" icon=false}
+**Featured walkthrough:** [Permanence risks in biodiversity &
+nature-based carbon offsets](walkthroughs/offset-permanence/index.qmd) —
+a structured review with an interactive database of major schemes.
+:::

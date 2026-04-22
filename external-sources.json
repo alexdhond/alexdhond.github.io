@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "name": "offset-permanence-review",
+      "repo": "alexdhond/offset-permanence-review",
+      "ref": "main",
+      "paths": [
+        "README.md",
+        "data/final/offset_perm_rev_condensed.csv",
+        "code/03_analysis/permanence_risk_analysis.qmd",
+        "code/03_analysis/publication_figures.qmd",
+        "code/03_analysis/supp_info_figures.qmd"
+      ]
+    }
+  ]
+}

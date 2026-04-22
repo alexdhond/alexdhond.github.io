@@ -1,0 +1,8 @@
+_site/
+.quarto/
+external/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+.claude/

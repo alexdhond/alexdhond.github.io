@@ -1,0 +1,28 @@
+---
+title: "Permanence risks in biodiversity & nature-based carbon offsets"
+description: >
+  A structured review of how permanence is defined, measured, and evidenced
+  across biodiversity and nature-based carbon offset schemes — and an
+  interactive database of the schemes covered.
+date: 2026-04-16
+categories: [offsets, conservation, review]
+execute:
+  enabled: false
+---
+
+Carbon and biodiversity offsets only "work" if the gains they claim — stored
+carbon, restored habitat, avoided clearing — stay in place over time.
+**Permanence** is the question of whether they do, and for how long. This
+walkthrough summarises an in-progress review of how permanence is treated
+across major biodiversity and nature-based carbon offset schemes, and provides
+an interactive database of the schemes covered.
+
+Project repository: <https://github.com/alexdhond/offset-permanence-review>
+
+## Interactive database
+
+Browse the schemes, their permanence definitions, monitoring requirements, and
+risk-mitigation mechanisms. Open full-screen:
+<https://alexdhond.shinyapps.io/offset-permanence-database/>
+
+{{< include ../../includes/offset-permanence-database.html >}}

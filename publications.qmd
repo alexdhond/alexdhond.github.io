@@ -1,0 +1,20 @@
+---
+title: "Publications"
+---
+
+Selected publications. Click **PDF** for the manuscript or **Publisher** for
+the version of record.
+
+### 2022
+
+**Advancing the fifth percentile: [fill in full title]**
+Dhond, A. [co-authors]. *Journal name*, year.
+[PDF](files/dhond-2022-advancing-fifth-percentile.pdf) ·
+[Publisher](https://doi.org/XXXX/XXXXX)
+
+### 2021
+
+**[Debray 2021 phyllosphere — fill in full title]**
+Debray, R., [co-authors including Dhond if applicable]. *Journal name*, year.
+[PDF](files/debray-2021-phyllosphere.pdf) ·
+[Publisher](https://doi.org/XXXX/XXXXX)

@@ -1,0 +1,12 @@
+---
+title: "Apps"
+---
+
+Interactive Shiny apps and other tools.
+
+## Offset permanence database explorer
+Open full-screen: <https://alexdhond.shinyapps.io/offset-permanence-database/>
+
+{{< include ../includes/offset-permanence-database.html >}}
+
+Walkthrough: [Offset permanence review](../walkthroughs/offset-permanence/index.qmd)

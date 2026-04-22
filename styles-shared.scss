@@ -1,0 +1,196 @@
+/*
+Shared theme rules.
+Variables (colors, fonts, etc.) are provided by styles-light.scss / styles-dark.scss.
+*/
+
+html {
+  scroll-padding-top: 4rem; /* avoid anchored headings sitting under sticky nav */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Navbar: subtle, sticky, with a blur */
+.navbar {
+  border-bottom: 1px solid $border-color;
+  background: rgba($body-bg, 0.85);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.navbar-brand,
+.navbar-brand-container {
+  display: none;
+}
+
+.navbar .nav-link {
+  font-weight: 540;
+}
+
+/* Light mode: ensure navbar links are readable on the pale background */
+.quarto-light .navbar .nav-link {
+  color: $body-color;
+  font-weight: 620;
+}
+
+.quarto-light .navbar .nav-link:hover,
+.quarto-light .navbar .nav-link:focus {
+  color: $primary;
+}
+
+.quarto-light .navbar .nav-link.active {
+  color: $primary;
+}
+
+/* Light mode: match icon contrast (search + dark/light toggle)
+   Note: navbar uses data-bs-theme="dark" even in light mode, so we need strong overrides. */
+.quarto-light header#quarto-header .quarto-navbar-tools .quarto-navigation-tool,
+.quarto-light header#quarto-header .quarto-navbar-tools .quarto-navigation-tool i.bi,
+.quarto-light header#quarto-header .quarto-navbar-tools .quarto-navigation-tool i.bi::before,
+.quarto-light header#quarto-header #quarto-search,
+.quarto-light header#quarto-header #quarto-search * {
+  color: $body-color !important;
+  opacity: 1 !important;
+}
+
+.quarto-light header#quarto-header .quarto-navbar-tools .quarto-navigation-tool:hover,
+.quarto-light header#quarto-header .quarto-navbar-tools .quarto-navigation-tool:focus,
+.quarto-light header#quarto-header #quarto-search button:hover,
+.quarto-light header#quarto-header #quarto-search button:focus,
+.quarto-light header#quarto-header #quarto-search .aa-SubmitButton:hover,
+.quarto-light header#quarto-header #quarto-search .aa-SubmitButton:focus,
+.quarto-light header#quarto-header #quarto-search .aa-DetachedSearchButton:hover,
+.quarto-light header#quarto-header #quarto-search .aa-DetachedSearchButton:focus {
+  color: $primary !important;
+}
+
+.quarto-light header#quarto-header #quarto-search svg,
+.quarto-light header#quarto-header #quarto-search svg * {
+  fill: currentColor !important;
+  stroke: currentColor !important;
+  opacity: 1 !important;
+}
+
+/* Toggle icon: ensure the Bootstrap Icon glyph (i.bi::before) follows currentColor */
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle i.bi,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle i.bi::before {
+  color: $body-color !important;
+  opacity: 1 !important;
+}
+
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:hover,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:focus,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:focus-visible,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:hover i.bi,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:hover i.bi::before,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:focus i.bi,
+.quarto-light header#quarto-header a.quarto-color-scheme-toggle:focus i.bi::before {
+  color: $primary !important;
+}
+
+/* Search: make the icon go green on hover/focus (override the base * { color: ... !important } rule) */
+.quarto-light header#quarto-header #quarto-search:hover,
+.quarto-light header#quarto-header #quarto-search:focus-within,
+.quarto-light header#quarto-header #quarto-search:hover *,
+.quarto-light header#quarto-header #quarto-search:focus-within * {
+  color: $primary !important;
+}
+
+.quarto-light header#quarto-header .navbar #quarto-search svg.aa-SubmitIcon,
+.quarto-light header#quarto-header .navbar #quarto-search .aa-Label svg,
+.quarto-light header#quarto-header .navbar #quarto-search .aa-LoadingIndicator svg {
+  color: $body-color !important;
+}
+
+.quarto-light header#quarto-header .navbar #quarto-search:hover svg.aa-SubmitIcon,
+.quarto-light header#quarto-header .navbar #quarto-search:focus-within svg.aa-SubmitIcon,
+.quarto-light header#quarto-header .navbar #quarto-search:hover .aa-Label svg,
+.quarto-light header#quarto-header .navbar #quarto-search:focus-within .aa-Label svg,
+.quarto-light header#quarto-header .navbar #quarto-search:hover .aa-LoadingIndicator svg,
+.quarto-light header#quarto-header .navbar #quarto-search:focus-within .aa-LoadingIndicator svg {
+  color: $primary !important;
+}
+
+/* Theme toggle icon: Quarto uses an SVG background-image with a hardcoded fill, so override it in light mode */
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%230b1220" class="bi bi-toggle-off" viewBox="0 0 16 16"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>') !important;
+}
+
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle.alternate .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%230b1220" class="bi bi-toggle-on" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>') !important;
+}
+
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:hover:not(.alternate) .bi::before,
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:focus:not(.alternate) .bi::before,
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:focus-visible:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2314532d" class="bi bi-toggle-off" viewBox="0 0 16 16"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>') !important;
+}
+
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:hover.alternate .bi::before,
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:focus.alternate .bi::before,
+.quarto-light header#quarto-header .navbar .quarto-color-scheme-toggle:focus-visible.alternate .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2314532d" class="bi bi-toggle-on" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>') !important;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+.quarto-title-block .title {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  font-size: 1.06rem;
+}
+
+/* Links: keep underline but make it elegant */
+a {
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Code blocks */
+pre {
+  border: 1px solid $border-color;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  background: $pre-bg;
+}
+
+code {
+  border-radius: 0.35rem;
+  padding: 0.12em 0.32em;
+  background: $inline-code-bg;
+  border: 1px solid $inline-code-border;
+}
+
+/* Blockquotes: simple callout */
+blockquote {
+  border-left: 3px solid $primary;
+  padding-left: 1rem;
+  color: rgba($body-color, 0.85);
+}
+
+/* TOC: quieter */
+#TOC,
+.toc {
+  font-size: 0.95rem;
+}
+
+.toc a {
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
