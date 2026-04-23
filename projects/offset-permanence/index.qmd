@@ -1,5 +1,5 @@
 ---
-title: "Permanence risks in biodiversity & nature-based carbon offsets"
+title: "Permanence Risks to Biodiversity and Nature-Based Carbon Offsets"
 description: >
   A structured review of how permanence is defined, measured, and evidenced
   across biodiversity and nature-based carbon offset schemes — and an
@@ -13,7 +13,7 @@ execute:
 Carbon and biodiversity offsets only "work" if the gains they claim — stored
 carbon, restored habitat, avoided clearing — stay in place over time.
 **Permanence** is the question of whether they do, and for how long. This
-walkthrough summarises an in-progress review of how permanence is treated
+walkthrough summarises a recently published review of how permanence is treated
 across major biodiversity and nature-based carbon offset schemes, and provides
 an interactive database of the schemes covered.
 

@@ -9,4 +9,4 @@ Open full-screen: <https://alexdhond.shinyapps.io/offset-permanence-database/>
 
 {{< include ../includes/offset-permanence-database.html >}}
 
-Walkthrough: [Offset permanence review](../walkthroughs/offset-permanence/index.qmd)
+Walkthrough: [Permanence Risks to Biodiversity and Nature-Based Carbon Offsets](../walkthroughs/offset-permanence/index.qmd)

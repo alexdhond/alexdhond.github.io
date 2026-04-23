@@ -1,5 +1,5 @@
 ---
-title: "Walkthroughs"
+title: "Projects"
 listing:
   contents:
     - "*/index.qmd"
@@ -10,5 +10,4 @@ listing:
   fields: [title, description, date, categories]
 ---
 
-Longer, more structured analysis writeups sourced from my project
-repositories.
+Structured analysis writeups, interactive tools, and other project work.

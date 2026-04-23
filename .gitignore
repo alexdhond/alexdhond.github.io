@@ -6,3 +6,6 @@ external/
 __pycache__/
 *.pyc
 .claude/
+
+/.quarto/
+**/*.quarto_ipynb

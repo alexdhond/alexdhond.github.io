@@ -5,16 +5,19 @@ title: "Publications"
 Selected publications. Click **PDF** for the manuscript or **Publisher** for
 the version of record.
 
+### 2026
+
+**Permanence Risks to Biodiversity and Nature-Based Carbon Offsets**. Dhond, A., zu Ermgassen, S., Swinfield, T., Robertson, M., Heinemeyer, A., Owen, S., Bull, J. W. *Conservation Letters*, 2026.
+[PDF](files/dhond-2026-permanence-risks-to.pdf) ·
+[Publisher](https://doi.org/10.1111/con4.70044)
+
 ### 2022
 
-**Advancing the fifth percentile: [fill in full title]**
-Dhond, A. [co-authors]. *Journal name*, year.
+**Advancing Fifth Percentile Hazard Concentration Estimation Using Toxicity-Normalized Species Sensitivity Distributions**. Dhond, A., Barron, M. *Environmental Science and Technology*, 2022.
 [PDF](files/dhond-2022-advancing-fifth-percentile.pdf) ·
-[Publisher](https://doi.org/XXXX/XXXXX)
+[Publisher](https://doi.org/10.1021/acs.est.2c06857)
 
-### 2021
-
-**[Debray 2021 phyllosphere — fill in full title]**
-Debray, R., [co-authors including Dhond if applicable]. *Journal name*, year.
-[PDF](files/debray-2021-phyllosphere.pdf) ·
-[Publisher](https://doi.org/XXXX/XXXXX)
+**Water stress and disruption of mycorrhizas induce parallel shifts in phyllosphere microbiome composition**
+Debray, R., Socolar, Y., Kaulbach, G., Guzman, A., Hernandez, C. A., Curley, R., Dhond, A., Bowles, T., Koskella, B. *New Phytologist*, 2022.
+[PDF](files/debray-2022-water-stress-and.pdf) ·
+[Publisher](https://doi.org/10.1111/nph.18000)

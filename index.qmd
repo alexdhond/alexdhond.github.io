@@ -1,17 +1,40 @@
 ---
-title: "Hi, I'm Alex"
-page-layout: full
+title: "Alex Dhond"
+about:
+  template: solana
+  links:
+    - icon: github
+      text: GitHub
+      href: "https://github.com/alexdhond"
+    - icon: envelope
+      text: Email
+      href: "mailto:alexander.dhond@biology.ox.ac.uk"
+    - text: ORCID
+      href: "https://orcid.org/0000-0002-6436-4466"
+    - text: Google Scholar
+      href: "https://scholar.google.com/citations?user=oP_ioUwAAAAJ&hl=en"
 ---
 
-I'm a PhD student in ecology at the University of Oxford. My research looks at
-the ecological credibility and long-term durability of biodiversity and
-nature-based carbon offsets.
+I am a PhD student in the Department of Biology at the University of Oxford. I am interested in the nexus of wetland ecology, nature markets, and nature-based solutions.
 
-This site is where I write up analyses from my project repositories, post
-shorter notes, and host a few interactive tools.
+I use this site to write about my projects, post notes and ideas, and host interactive tools I have developed.
 
 ::: {.callout-tip appearance="simple" icon=false}
-**Featured walkthrough:** [Permanence risks in biodiversity &
-nature-based carbon offsets](walkthroughs/offset-permanence/index.qmd) —
-a structured review with an interactive database of major schemes.
+**Featured project:** [Permanence Risks to Biodiversity and Nature-Based Carbon Offsets](projects/offset-permanence/index.qmd) —
+we recently published a review along with an interactive database of the risks we identified.
 :::
+
+## Research interests
+
+{{< include _content/research-interests.md >}}
+
+## Currently
+
+- Working withthe National Wetland Condition Assessment (NWCA) data to understand drivers of wetland condition in the United States.
+- Testing applications of geospatial foundation models for predicting wetland condition.
+
+We also recently published a review of permanence risks biodiversity and nature-based carbon offsets: see the [project page](projects/offset-permanence/index.qmd) and the [project repository](https://github.com/alexdhond/offset-permanence-review).
+
+## CV
+
+[Download CV (PDF)](files/dhond-cv.pdf)

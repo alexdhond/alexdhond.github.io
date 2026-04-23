@@ -6,11 +6,9 @@ project:
     - images/**
   render:
     - index.qmd
-    - about.qmd
     - publications.qmd
     - posts/**/*.qmd
-    - walkthroughs/**/*.qmd
-    - apps/**/*.qmd
+    - projects/**/*.qmd
 
 website:
   title: "Alex Dhond"
@@ -21,16 +19,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: walkthroughs/index.qmd
-        text: Walkthroughs
+      - href: projects/index.qmd
+        text: Projects
       - href: posts/index.qmd
         text: Blog
-      - href: apps/index.qmd
-        text: Apps
       - href: publications.qmd
         text: Publications
-      - href: about.qmd
-        text: About
     right:
       - icon: github
         href: "https://github.com/alexdhond"
