@@ -9,15 +9,22 @@ the version of record.
 
 **Permanence Risks to Biodiversity and Nature-Based Carbon Offsets**. Dhond, A., zu Ermgassen, S., Swinfield, T., Robertson, M., Heinemeyer, A., Owen, S., Bull, J. W. *Conservation Letters*, 2026.
 [PDF](files/dhond-2026-permanence-risks-to.pdf) ·
-[Publisher](https://doi.org/10.1111/con4.70044)
+[Publisher](https://doi.org/10.1111/con4.70044) ·
+[Code](https://github.com/alexdhond/offset-permanence-review)
+
+**Buffer Pools & Beyond: Unifying Terms and Approaches for Durability Strategies in Carbon Markets**. Gupton, S. D., Kuebbing, S., Thyr, I., Kirchner, M., Notto, R., Riley, L., Anderegg, W., Cook-Patton, S. C., Truitt, N., Dhond, A., Gurwick, N. P., and the Beyond Buffer Pools Working Group. *SHIFT-CM White Paper*, 2026.
+[PDF](files/gupton-2026-buffer-pools-beyond.pdf) ·
+[Publisher](https://nature4climate.org/wp-content/uploads/2026/06/Buffer-Pools-Beyond.pdf)
 
 ### 2022
 
 **Advancing Fifth Percentile Hazard Concentration Estimation Using Toxicity-Normalized Species Sensitivity Distributions**. Dhond, A., Barron, M. *Environmental Science and Technology*, 2022.
 [PDF](files/dhond-2022-advancing-fifth-percentile.pdf) ·
-[Publisher](https://doi.org/10.1021/acs.est.2c06857)
+[Publisher](https://doi.org/10.1021/acs.est.2c06857) ·
+[Code](https://github.com/alexdhond/SSDn-Code)
 
 **Water stress and disruption of mycorrhizas induce parallel shifts in phyllosphere microbiome composition**
 Debray, R., Socolar, Y., Kaulbach, G., Guzman, A., Hernandez, C. A., Curley, R., Dhond, A., Bowles, T., Koskella, B. *New Phytologist*, 2022.
 [PDF](files/debray-2022-water-stress-and.pdf) ·
-[Publisher](https://doi.org/10.1111/nph.18000)
+[Publisher](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.17817) ·
+[Code](https://github.com/reenadebray/davis-field-trial)
